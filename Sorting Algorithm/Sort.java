@@ -19,7 +19,8 @@ public class Sort {
 		System.out.println();
 		
 	}
-	
+
+	//Bubble Sort
 	static int[] bubbleSort(int[] a) {
 		
 		for(int i=0;i<a.length-1;i++) {
@@ -31,7 +32,8 @@ public class Sort {
 		}
 		return a;
 	}
-	
+
+	//Selection Sort
 	static int[] selectionSort(int[] a) {
 		
 		for(int i=0;i<a.length-1;i++) {
@@ -44,7 +46,8 @@ public class Sort {
 		}
 		return a;
 	}
-	
+
+	//Insertion Sort
 	static int[] insertionSort(int[] a) {
 		for(int i=1;i<a.length;i++) {
 			int target = i;
@@ -68,13 +71,13 @@ public class Sort {
 	//Merge sort: O(nlogn) complexity
 	static void mergeSort(int[] a, int begin, int end) {
 		if((end-begin)>=1) {
-			int splitPoint = getSplitPoint(begin, end);
+			int splitPoint = mergeSplit(begin, end);
 			mergeSort(a, begin, splitPoint);
 			mergeSort(a, splitPoint+1, end);
 			join(a, begin, splitPoint, end);
 		}
 	}
-	private static int getSplitPoint(int start, int end) {
+	private static int mergeSplit(int start, int end) {
 		int mid = (start+end)/2;
 		return mid;
 	}
