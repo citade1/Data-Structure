@@ -4,5 +4,5 @@ Code practice & exercises from book "Data Structure and Algorithms in Java" 6th 
 
 ## Chapter 1. Java Primer  
            - Sorting Algorithm (Bubble, Selection, Insertion, Merge, Quick Sort)  
-           - Exercise..? (Not done)  
+           - Exercise of Chapter 1 
 ## Chapter 2. Object-Oriented Design
