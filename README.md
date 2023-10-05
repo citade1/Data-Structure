@@ -8,4 +8,5 @@ Code practice & exercises from book "Data Structure and Algorithms in Java" 6th 
 ## Chapter 2. Object-Oriented Design  
            - String class Implementation using doubly-linked list  
            (constructor, append, prepend, findFirst, findLast, lessOrEqual, print, size)  
-           - Solutions to Chapter 2 Exercise    
+           - Solutions to Chapter 2 Exercise 
+## Chapter 3. Fundamental Data Structures  
