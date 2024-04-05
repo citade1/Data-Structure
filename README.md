@@ -1,6 +1,7 @@
 # Data-Structure
 
 Code practice & exercises from book "Data Structure and Algorithms in Java" 6th Edition, written by Goodrich, Tamassia & Goldwasser.
+(Also, assignments from course CSI2103 Data Structure offered in the 2021 fall semester at Yonsei University included.)
 
 ## Chapter 1. Java Primer  
            - Sorting Algorithm (Bubble, Selection, Insertion, Merge, Quick Sort)  
